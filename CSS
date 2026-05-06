@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #ffffff;
+    color: #111;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+main {
+    padding: 60px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.galeria img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.02);
+}
+
+.obra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.obra img {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
