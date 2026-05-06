@@ -108,3 +108,41 @@ main {
         transform: translateY(0);
     }
 }
+
+body {
+    margin: 0;
+    background: #f6f1e9;
+    color: #1a1a1a;
+    font-family: 'Inter', sans-serif;
+}
+
+h1, .titulo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing: -0.5px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+nav a {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(15px);
+    animation: aparecer 0.8s ease forwards;
+}
+
+@keyframes aparecer {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
