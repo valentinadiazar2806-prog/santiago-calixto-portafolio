@@ -146,3 +146,24 @@ nav a {
         transform: translateY(0);
     }
 }
+
+.cuadro {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background: #eae4d8; /* marfil más oscuro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.cuadro span {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.placeholder:hover .cuadro {
+    background: #ddd6c8;
+    transform: scale(1.02);
+}
